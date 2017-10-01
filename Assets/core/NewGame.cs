@@ -11,7 +11,9 @@ public class NewGame : MonoBehaviour
     {
         gm = GameObject.FindObjectOfType<GameManager>();
         score = GameObject.FindObjectOfType<Score>();
-        createNewGame();
+        gm.gameOverPanel.SetActive(false);
+        gm.winPanel.SetActive(false);
+//        createNewGame();
     }
         
     public void createNewGame()

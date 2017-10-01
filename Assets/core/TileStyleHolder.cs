@@ -2,14 +2,13 @@
 using System.Collections;
 using UnityEngine.UI;
 
-[System.Serializable]
+[System.Serializable] //DO NOT REMOVE, BECAUSE IT'S USED IN UNITY EDITOR
 public class TileStyle
 {
 	public string Number;
 	public Color32 TileColor;
 	public Color32 TextColor;
 }
-
 
 public class TileStyleHolder : MonoBehaviour {
 

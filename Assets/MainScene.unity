@@ -238,7 +238,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 5e1acf1a3565a46f2b218d0a4030da35, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 59107f83e374c4aaaafccf9ec2b2dd4d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -441,7 +441,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 5e1acf1a3565a46f2b218d0a4030da35, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 59107f83e374c4aaaafccf9ec2b2dd4d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -522,7 +522,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 5e1acf1a3565a46f2b218d0a4030da35, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 59107f83e374c4aaaafccf9ec2b2dd4d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -801,7 +801,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 5e1acf1a3565a46f2b218d0a4030da35, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 59107f83e374c4aaaafccf9ec2b2dd4d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1537,7 +1537,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 5e1acf1a3565a46f2b218d0a4030da35, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 59107f83e374c4aaaafccf9ec2b2dd4d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2081,7 +2081,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 5e1acf1a3565a46f2b218d0a4030da35, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 59107f83e374c4aaaafccf9ec2b2dd4d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2233,7 +2233,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 5e1acf1a3565a46f2b218d0a4030da35, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 59107f83e374c4aaaafccf9ec2b2dd4d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2388,7 +2388,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 5e1acf1a3565a46f2b218d0a4030da35, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 59107f83e374c4aaaafccf9ec2b2dd4d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2543,7 +2543,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 5e1acf1a3565a46f2b218d0a4030da35, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 59107f83e374c4aaaafccf9ec2b2dd4d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2698,7 +2698,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 5e1acf1a3565a46f2b218d0a4030da35, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 59107f83e374c4aaaafccf9ec2b2dd4d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2779,7 +2779,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 5e1acf1a3565a46f2b218d0a4030da35, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 59107f83e374c4aaaafccf9ec2b2dd4d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3301,7 +3301,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 5e1acf1a3565a46f2b218d0a4030da35, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 59107f83e374c4aaaafccf9ec2b2dd4d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3382,7 +3382,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 5e1acf1a3565a46f2b218d0a4030da35, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 59107f83e374c4aaaafccf9ec2b2dd4d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3537,7 +3537,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 5e1acf1a3565a46f2b218d0a4030da35, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 59107f83e374c4aaaafccf9ec2b2dd4d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3914,7 +3914,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 5e1acf1a3565a46f2b218d0a4030da35, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 59107f83e374c4aaaafccf9ec2b2dd4d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4656,87 +4656,87 @@ MonoBehaviour:
   - Number: 2
     TileColor:
       serializedVersion: 2
-      rgba: 4292469996
+      rgba: 4292403946
     TextColor:
       serializedVersion: 2
-      rgba: 4285233021
+      rgba: 4285298558
   - Number: 4
     TileColor:
       serializedVersion: 2
-      rgba: 4291619583
+      rgba: 4290896377
     TextColor:
       serializedVersion: 2
-      rgba: 4285233021
+      rgba: 4285298558
   - Number: 8
     TileColor:
       serializedVersion: 2
-      rgba: 4294967293
+      rgba: 4286165490
     TextColor:
       serializedVersion: 2
-      rgba: 4286165490
+      rgba: 4293653756
   - Number: 16
     TileColor:
       serializedVersion: 2
       rgba: 4284650995
     TextColor:
       serializedVersion: 2
-      rgba: 4294967293
+      rgba: 4293653756
   - Number: 32
     TileColor:
       serializedVersion: 2
-      rgba: 4284447983
+      rgba: 4284447981
     TextColor:
       serializedVersion: 2
-      rgba: 4294967293
+      rgba: 4293653756
   - Number: 64
     TileColor:
       serializedVersion: 2
-      rgba: 4281621239
+      rgba: 4281621494
     TextColor:
       serializedVersion: 2
-      rgba: 4294967293
+      rgba: 4293653756
   - Number: 128
     TileColor:
       serializedVersion: 2
-      rgba: 4283880957
+      rgba: 4285452012
     TextColor:
       serializedVersion: 2
-      rgba: 4294967293
+      rgba: 4293653756
   - Number: 256
     TileColor:
       serializedVersion: 2
       rgba: 4285452012
     TextColor:
       serializedVersion: 2
-      rgba: 4294967293
+      rgba: 4293653756
   - Number: 512
     TileColor:
       serializedVersion: 2
-      rgba: 4294967293
+      rgba: 4285452012
     TextColor:
       serializedVersion: 2
-      rgba: 4278190080
+      rgba: 4294967295
   - Number: 1024
     TileColor:
       serializedVersion: 2
-      rgba: 4294967293
+      rgba: 4285452012
     TextColor:
       serializedVersion: 2
-      rgba: 4278190080
+      rgba: 4293653756
   - Number: 2048
     TileColor:
       serializedVersion: 2
-      rgba: 4294967293
+      rgba: 4285452012
     TextColor:
       serializedVersion: 2
-      rgba: 4278190080
+      rgba: 4293653756
   - Number: 4096
     TileColor:
       serializedVersion: 2
-      rgba: 4294967293
+      rgba: 4285452012
     TextColor:
       serializedVersion: 2
-      rgba: 4278190080
+      rgba: 4293653756
 --- !u!114 &2037148599
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4953,7 +4953,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 5e1acf1a3565a46f2b218d0a4030da35, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 59107f83e374c4aaaafccf9ec2b2dd4d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

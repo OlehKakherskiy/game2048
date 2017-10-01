@@ -31,4 +31,9 @@ public class TileCell: MonoBehaviour
       TileText.enabled = true;
       TCell.enabled = true;
    }
+   
+    public int getCellNumber()
+    {
+        return Number;
+    }    
 }

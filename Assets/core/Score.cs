@@ -4,40 +4,36 @@ using UnityEngine.UI;
 
 public class Score : MonoBehaviour
 {
-    private int score;
+    public int ScoreNumber {get;set;}
     
     public Text ScoreText;
     
-    private MaxScore maxScore;
+    public MaxScore MaxScore {get;set;}
     
     public void Start()
     {
-        maxScore =  GameObject.FindObjectOfType<MaxScore>();
-        score = 0;
-        Debug.Log(ScoreText.text);
-        Reset();
+        MaxScore =  GameObject.FindObjectOfType<MaxScore>();
+        ScoreNumber = GameSaveLoad.GAME_DATA.getScore();
+        UpdateText();
     }
     
     public void Increment(int value)
     {
-        score += value;
-        maxScore.CompareAndUpdate(score);
+        Debug.Log("add to score number = "+value);
+        ScoreNumber += value;
+        MaxScore.CompareAndUpdate(ScoreNumber);
         UpdateText();
     }
     
-    public void Reset(){
-        score = 0;
+    public void Reset() {
+        ScoreNumber = 0;
         UpdateText();
-    }
-    
-    public int GetScore()
-    {
-        return score;
     }
     
     private void UpdateText()
     {
-        ScoreText.text = score+"";
+        GameSaveLoad.GAME_DATA.setScore(ScoreNumber);
+        ScoreText.text = ScoreNumber+"";
         ScoreText.enabled = true;
     }
     

@@ -31,6 +31,8 @@ public class GameManager:MonoBehaviour
     
     public void Awake()
     {
+        System.Environment.SetEnvironmentVariable("MONO_REFLECTION_SERIALIZER", "yes");
+        GameSaveLoad.LoadGame();
         rnd = new System.Random();
         tiles = GameObject.FindObjectsOfType<TileCell>();
         emptyTiles = new HashSet<int>();
@@ -38,8 +40,34 @@ public class GameManager:MonoBehaviour
         scoreController = GameObject.FindObjectOfType<Score>();
     }
     
+    public void Start()
+    {
+        loadTiles();
+        if(emptyTiles.Count() == TILES_COUNT)
+        {
+            Debug.Log("All tiles are empty - new game and generating first two numbers");
+            generateNumber();
+            generateNumber();
+        }
+    }
+    
+    private void loadTiles()
+    {
+        Debug.Log("Updating persisted tiles numbers...");
+        int[] loadedTileIndexes = GameSaveLoad.GAME_DATA.getCellValues();
+        for(int i = 0; i < loadedTileIndexes.Length; i++)
+        {
+            tiles[i].UpdateNumber(loadedTileIndexes[i]);
+            if(loadedTileIndexes[i] == 1)
+            {
+                emptyTiles.Add(i);
+            }
+        }
+    }
+    
     public void CreateNewGame()
     {
+        Debug.Log("Creating new game ...");
         for(int i = 0; i < TILES_COUNT; i++)
         {
             ResetTile(i);
@@ -142,10 +170,11 @@ public class GameManager:MonoBehaviour
     }
     
     private void doMove(int from, int to)
-    {
+    {   
         if(from == to){
             return;
         }
+        Debug.Log("Moving tile from index = "+from+" to index = "+to);
         emptyTiles.Remove(to);
         tiles[to].UpdateNumber(tiles[from].Number);
         
@@ -169,20 +198,23 @@ public class GameManager:MonoBehaviour
 
     private void ResetTile(int tileIndex)
     {
+        Debug.Log("Reset tile with index = "+tileIndex);
         tiles[tileIndex].UpdateNumber(1);
         emptyTiles.Add(tileIndex);
     }
     
     private void generateNumber()
     {
+        Debug.Log("Generating new number ...");
         if(emptyTiles.Count() == 0)
         {
+            Debug.Log("No empty cells - checking game over ...");
             checkGameOver();
             return;
         }
         List<int> tempList = new List<int>(emptyTiles);
         int elementIndex = tempList.ElementAt(rnd.Next(0, tempList.Count()));
-//        Debug.Log("Was generated on pos = "+elementIndex);
+        Debug.Log("Was generated on pos = "+elementIndex);
         tiles[elementIndex].UpdateNumber(2);
         emptyTiles.Remove(elementIndex);
     }
@@ -191,9 +223,11 @@ public class GameManager:MonoBehaviour
     
     private void checkGameOver() {
         if(lastChanceMissed){
+            Debug.Log("User didn't merge any tiles and no free tiles - game over.");
             gameOverPanel.SetActive(true);
-            ScoreText.text = scoreController.GetScore()+"";
+            ScoreText.text = scoreController.ScoreNumber+"";
         }else{
+            Debug.Log("User has last chanse to merge any tile...");
             lastChanceMissed = true;
         }
     }
@@ -203,17 +237,31 @@ public class GameManager:MonoBehaviour
     {
         for(int i = 0; i < TILES_COUNT; i++)
         {
-            
-        }
-        if(scoreController.GetScore() == 2048)
-        {
-            winPanel.SetActive(true);
+            if(tiles[i].getCellNumber() == 2048)
+            {
+                Debug.Log("Found tile with number 2048 - game is won");
+                winPanel.SetActive(true);
+            }
         }
     }
     
     public void ContinueAfterWin()
     {
+        Debug.Log("User wants to continue the game...");
         winPanel.SetActive(false);
+    }
+    
+    
+    void OnApplicationQuit() 
+    {
+        Debug.Log("Persisting tiles numbers before quit game");
+        int[] tileNumbers = new int[TILES_COUNT];
+        for(int i = 0; i < TILES_COUNT; i++)
+        {
+            tileNumbers[i] = tiles[i].getCellNumber();
+        }
+        GameSaveLoad.GAME_DATA.setTileCellValues(tileNumbers);
+        GameSaveLoad.SaveGame();
     }
 
 }

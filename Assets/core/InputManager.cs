@@ -11,15 +11,10 @@ public enum Direction
     public class InputManager:MonoBehaviour
     {
         private GameManager gm;
-
-        public void Awake()
-        {
-            gm = GameObject.FindObjectOfType<GameManager> ();
-        }
         
         public void Start()
         {
-            
+            gm = GameObject.FindObjectOfType<GameManager> ();
         }
         public void Update()
         {
